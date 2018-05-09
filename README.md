@@ -29,4 +29,4 @@ val data = mutableListOf("梦幻西游今天全新开始了,希望大家来玩!"
    main_vertical.setData(data)
    main_vertical.start()
 ```
-![image](https://github.com/Onionsss/VerticalScrollView/blob/master/images/bh.png)
+![image](https://github.com/Onionsss/VerticalScrollView/blob/master/images/bh.gif)
