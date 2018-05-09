@@ -1,6 +1,6 @@
 # VerticalScrollView
 纵向的文字滚动视图
-[ ![FlowLayout](https://img.shields.io/badge/FlowLayout-1.0.0-orange.svg) ](https://bintray.com/zhangqiaa/maven/FlowLayout/_latestVersion)
+[ ![VerticalScrollView](https://img.shields.io/badge/VerticalScrollView-1.0.0-orange.svg) ](https://bintray.com/zhangqiaa/maven/VerticalScrollView/_latestVersion)
 ```
 依赖方式  implementation 'com.onion.flow:FlowLayout:1.0.0'
 ```
