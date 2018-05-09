@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.onion.verticalscrollview.MainActivity">
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        android:id="@+id/main_scroll_ll"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#441e2345"
+        android:layout_height="35dp">
+        <!--android:background="#441e2345"-->
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/home_tongz"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"/>
+        <com.onion.vertical.VerticalScrollView
+            android:paddingRight="20dp"
+            android:id="@+id/main_vertical"
+            app:v_yspeed="2"
+            app:v_xspeed="1"
+            app:v_textSize="12sp"
+            app:v_interval="3000"
+            app:v_textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+        </com.onion.vertical.VerticalScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

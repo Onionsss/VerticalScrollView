@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerticalScrollView">
+        <attr name="v_yspeed" format="float"/>
+        <attr name="v_xspeed" format="float"/>
+        <attr name="v_interval" format="integer"/>
+        <attr name="v_textColor" format="color"/>
+        <attr name="v_textSize" format="dimension"/>
+    </declare-styleable>
+</resources>
